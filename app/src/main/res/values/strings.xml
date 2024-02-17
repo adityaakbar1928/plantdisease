@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Agrinova</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_camera">Kamera</string>
+    <string name="title_others">Histori</string>
+    <string name="home_main_feature_title">Diagnose</string>
+    <string name="check_your_plant">Check Your Plant</string>
+    <string name="title_camera_fragment">Kamera</string>
+    <string name="title_others_fragment">Lainnya</string>
+    <string name="start_diagnosing">Start Diagnosing</string>
+    <string-array name="common_problems_name">
+        <item>Antraknosa</item>
+        <item>Canker Bakteri</item>
+        <item>Kumbang Pemotong</item>
+        <item>Dieback</item>
+        <item>Ganjur</item>
+        <item>Embun Tepung</item>
+        <item>Embun Jelaga</item>
+    </string-array>
+    <string-array name="common_problems_desc">
+        <item>Penyakit ini disebabkan oleh jamur Colletotrichum gloeosporioides atau Colletotrichum acutatum. Antraknosa adalah salah satu penyakit mangga yang paling merusak di seluruh dunia dan dapat menyebabkan kerugian yang signifikan dalam produksi buah.\n\n
+
+            Gejala antraknosa mangga biasanya muncul pada buah, namun penyakit ini juga dapat menyerang daun, batang, dan bunga. Pada buah, antraknosa awalnya muncul sebagai bintik atau lesi kecil, gelap, cekung. Bintik-bintik ini berangsur-angsur membesar dan menjadi berwarna coklat tua hingga hitam.Seiring berkembangnya penyakit, bintik-bintik ini bisa menyatu dan menyebabkan buah membusuk sepenuhnya. Buah yang terinfeksi juga dapat mengembangkan pertumbuhan jamur berwarna putih.
+
+\n\n Antraknosa biasa muncul karena kondisi hangat dan lembab, yang mendorong pertumbuhan jamur dan produksi spora. Penyakit ini dapat menyebar melalui angin, hujan, serangga, atau melalui kontak antara jaringan tanaman yang terinfeksi dan yang sehat. Buah yang terlalu matang atau rusak juga sangat rentan terhadap infeksi.
+</item>
+        <item>Canker bakteri mangga merupakan penyakit yang disebabkan oleh bakteri Xanthomonas citri subsp. mangiferae. Bakteri ini umumnya menyerang pohon mangga, menyebabkan gejala khas pada daun, batang, dan buah.  Gejala kanker bakteri mangga dapat bervariasi tergantung pada umur dan kerentanan tanaman, serta kondisi lingkungan.
+
+\n\nBeberapa gejala yang umum: daun menunjukkan bercak kecil yang basah kuyup yang secara bertahap membesar dan berubah menjadi coklat tua atau hitam, terkadang juga berwarna kuning di sekitarnya. Seiring perkembangan penyakit, daun yang terinfeksi dapat layu, mati, dan jatuh dari pohon .Buah yang terinfeksi dapat berkembang menjadi lesi yang terangkat, cekung, atau pecah-pecah. Lesi ini bisa berwarna coklat tua sampai hitam dan mungkin mengeluarkan getah atau cairan.
+
+\n\nBakteri menyebar terutama melalui percikan air, hujan, atau peralatan dan perlengkapan yang terkontaminasi. Irigasi yang berlebihan dan luka di pohon menjadi titik masuk bagi bakteri. Kondisi hangat dan lembab, seperti yang ditemukan di daerah tropis dan subtropis, mendukung perkembangan dan penyebaran bacterial canker mangga.
+</item>
+        <item>Salah satu kumbang umum yang menyerang mangga adalah kumbang biji mangga (Sternochetus mangiferae). Kumbang dewasa bertelur di buah mangga yang sedang berkembang, dan larva memakan daging buah, menyebabkan kerusakan.</item>
+        <item>Dieback pada pohon mangga mengacu pada kondisi dimana cabang atau bagian pohon mati secara bertahap. Hal ini dapat disebabkan oleh berbagai faktor, antara lain penyakit, hama, tekanan lingkungan, defisiensi nutrisi, atau kombinasi dari faktor-faktor tersebut. Berikut adalah beberapa penyebab umum mati pucuk pada pohon mangga:
+
+\n\nPenyakit jamur: Penyakit seperti antraknosa mangga (disebabkan oleh spesies Colletotrichum) atau kanker bakteri mangga (disebabkan oleh Xanthomonas citri subsp. mangiferae) dapat menyebabkan mati pucuk cabang jika tidak ditangani. Penyakit ini dapat melemahkan mekanisme pertahanan pohon, membuatnya lebih rentan terhadap tekanan lain.
+
+\n\nInfestasi hama: Serangga dan hama, termasuk penggerek dan kumbang, dapat menyerang cabang atau batang pohon mangga, menyebabkan kerusakan yang menyebabkan mati pucuk. Hama ini menciptakan titik masuk bagi patogen dan melemahkan integritas struktural pohon.
+
+\n\nStres lingkungan: Pohon mangga dapat mengalami stres akibat kondisi cuaca ekstrem seperti kekeringan, panas berlebih, atau suhu dingin. Genangan air yang berkepanjangan juga dapat menyebabkan pembusukan akar, yang memengaruhi kesehatan pohon secara keseluruhan dan dapat menyebabkan mati pucuk.
+
+\n\nKekurangan nutrisi: Serapan nutrisi yang tidak mencukupi atau tidak seimbang dapat melemahkan pohon mangga dan membuat mereka lebih rentan terhadap dieback. Kekurangan nutrisi yang umum terjadi pada pohon mangga meliputi nitrogen, fosfor, kalium, dan mikronutrien seperti seng, besi, atau magnesium.
+</item>
+        <item>Mango gall midge (Procontarinia mangiferae) adalah serangga kecil yang dapat menyebabkan kerusakan signifikan pada pohon mangga. Jenis serangga ini mempengaruhi tanaman mangga dengan menyebabkan pembentukan galls, yang merupakan pertumbuhan abnormal atau pembengkakan di berbagai bagian pohon.</item>
+        <item>Embun tepung adalah penyakit jamur yang umumnya menyerang berbagai tanaman, termasuk pohon buah-buahan seperti mangga. Hal ini disebabkan oleh berbagai spesies jamur dari ordo Erysiphales, yang paling umum adalah Podosphaera tridactyla dan Oidium mangiferae.
+
+\n\nEmbun tepung muncul sebagai pertumbuhan tepung berwarna putih hingga keabu-abuan pada permukaan daun, batang, bunga, dan buah. Awalnya, jamur tampak sebagai bintik-bintik kecil atau tambalan, yang secara bertahap membesar dan menyatu. Jaringan tanaman yang terkena dapat menjadi terdistorsi atau kerdil, dan dalam kasus yang parah, daun dapat menggulung atau rontok sebelum waktunya.
+
+\n\nJamur tepung tumbuh subur di lingkungan yang hangat dan kering dengan tingkat kelembapan tinggi. Penyakit ini cenderung terjadi saat cuaca sedang hingga hangat (sekitar 20-30°C) dan kelembapan sedang. Namun, jamur ini juga dapat berkembang dalam kondisi kelembaban tinggi dan suhu dingin tertentu.
+
+\n\nJamur embun tepung berkembang biak melalui spora yang menyebar dan menginfeksi bagian tanaman baru. Spora mudah disebarkan oleh angin, air, serangga, alat, atau aktivitas manusia.
+</item>
+        <item>Embun jjelaga mangga adalah penyakit jamur yang umumnya menyerang pohon mangga. Penyakit ini tidak disebabkan oleh jamur tertentu melainkan terjadi akibat tumbuhnya berbagai jamur berwarna gelap, seperti Capnodium spp. dan Antennariella spp., pada embun madu yang dikeluarkan oleh serangga penghisap getah tertentu, terutama kutu daun, sisik, dan kutu putih. Embun madu berfungsi sebagai sumber nutrisi bagi jamur, yang kemudian membentuk jamur berwarna hitam atau abu-abu tua, bertepung atau bersisik di permukaan daun, cabang, dan buah.
+
+\n\nGejala jamur jelaga mangga yang paling jelas adalah adanya lapisan hitam atau abu-abu tua pada permukaan daun, cabang, dan buah. Lapisan ini dapat menutupi seluruh permukaan atau muncul sebagai tambalan. Jamur biasanya berkembang pada sekresi yang ditinggalkan oleh serangga, yang sering ditemukan memakan bagian bawah daun atau di area pohon yang terlindung. Daun yang terserang dapat berubah menjadi kuning atau coklat dan rontok sebelum waktunya.
+</item>
+    </string-array>
+    <integer-array name="common_photo">
+        <item>@drawable/common1</item>
+        <item>@drawable/common2</item>
+        <item>@drawable/common3</item>
+        <item>@drawable/common4</item>
+        <item>@drawable/common5</item>
+        <item>@drawable/common6</item>
+        <item>@drawable/common7</item>
+    </integer-array>
+</resources>
