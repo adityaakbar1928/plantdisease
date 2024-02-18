@@ -1,12 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/green">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewHistory"
+    <TextView
+        android:id="@+id/textView7"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="History Diagnosis"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
 
-</LinearLayout>
+    <!-- Header -->
+    <TableLayout
+        android:id="@+id/headerTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+        <!-- Table Row untuk Header -->
+        <TableRow>
+
+            <!-- Image Column Title -->
+            <TextView
+                android:id="@+id/labelImage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Image"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="8dp"/>
+
+            <!-- Diagnosis Result Column Title -->
+            <TextView
+                android:id="@+id/labelHasil"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hasil Diagnosa"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="8dp"/>
+
+            <!-- Action Column Title -->
+            <TextView
+                android:id="@+id/labelAction"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Action"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="8dp"/>
+        </TableRow>
+    </TableLayout>
+
+    <!-- RecyclerView for History -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clipToPadding="false"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="8dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerTableLayout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

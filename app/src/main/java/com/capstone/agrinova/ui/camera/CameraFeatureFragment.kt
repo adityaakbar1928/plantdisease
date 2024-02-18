@@ -141,7 +141,7 @@ class CameraFeatureFragment : Fragment() {
 
     private fun requestDataset(imageUrl: String?) {
         imageUrl?.let { url ->
-            val MODEL_ENDPOINT = "plant-disease-detection-v2-2nclk/1"
+            val MODEL_ENDPOINT = "plants-diseases-detection-and-classification/12"
             val API_KEY = "x924C39CcE5KiuNEjBhG"
             val url_dataset = "https://detect.roboflow.com/$MODEL_ENDPOINT?api_key=$API_KEY&image=$url"
             val params_dataset = JSONObject()
@@ -167,7 +167,7 @@ class CameraFeatureFragment : Fragment() {
                             binding.loadingProgressBar.visibility = View.GONE
                             // Memanggil fungsi addHistory dengan hasil prediksi kelas
                             val controlDB = DatabaseHandler(requireContext())
-                            controlDB.addHistory(imageUrl, prediksi_kelas)
+                            controlDB.addHistory(url, prediksi_kelas)
                         }
                     } catch (e: JSONException) {
                         e.printStackTrace()

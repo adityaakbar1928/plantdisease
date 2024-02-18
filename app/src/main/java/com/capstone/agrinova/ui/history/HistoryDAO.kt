@@ -9,7 +9,7 @@ interface HistoryDAO {
     @Insert
     fun insert(history: History)
 
-    @Query("SELECT * FROM history_table")
+    @Query("SELECT * FROM history")
     fun getAllHistory(): List<History>
 
     // Mungkin terdapat metode lainnya seperti update dan delete

@@ -37,16 +37,16 @@ class HistoryFragment : Fragment() {
         databaseHandler = DatabaseHandler(requireContext())
 
         // Inisialisasi RecyclerView dan atur layout manager
-        binding.recyclerViewHistory.layoutManager = LinearLayoutManager(requireContext())
+        binding.recyclerView.layoutManager = LinearLayoutManager(requireContext())
 
         // Mendapatkan data riwayat dari database
-        val historyList = databaseHandler.getAllHistory()
+        val historyList = databaseHandler.getAllHistory().filter { it.first.isNotBlank() && it.second.isNotBlank() }
 
         // Buat instance adapter RecyclerView dengan menggunakan data riwayat
-        historyAdapter = HistoryAdapter(historyList)
+        historyAdapter = HistoryAdapter(requireContext(), historyList)
 
         // Setel adapter ke RecyclerView untuk menampilkan data riwayat
-        binding.recyclerViewHistory.adapter = historyAdapter
+        binding.recyclerView.adapter = historyAdapter
     }
 
     override fun onDestroyView() {

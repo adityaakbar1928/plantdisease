@@ -9,6 +9,7 @@
     <string name="title_camera_fragment">Kamera</string>
     <string name="title_others_fragment">Lainnya</string>
     <string name="start_diagnosing">Start Diagnosing</string>
+    <string name="close_button_description">Tutup Gambar</string>
     <string-array name="common_problems_name">
         <item>Antraknosa</item>
         <item>Canker Bakteri</item>

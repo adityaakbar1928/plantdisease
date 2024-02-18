@@ -35,6 +35,14 @@ class DatabaseHandler(context: Context) : SQLiteOpenHelper(context, DATABASE_NAM
         db.close()
     }
 
+    fun deleteHistory(imagePath: String): Boolean {
+        val db = this.writableDatabase
+        val result = db.delete(TABLE_HISTORY, "$KEY_IMAGE_PATH = ?", arrayOf(imagePath))
+        db.close()
+        return result != -1
+    }
+
+
     fun getAllHistory(): ArrayList<Pair<String, String>> {
         val historyList = ArrayList<Pair<String, String>>()
         val selectQuery = "SELECT * FROM $TABLE_HISTORY"
